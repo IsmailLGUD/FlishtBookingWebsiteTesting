@@ -27,7 +27,7 @@ public class CalenderSelectingTesting {
 		if(driver.findElement(By.id("Div1")).getAttribute("style").contains("1")) {
 			
 			System.out.println("It's enabled!!");
-			Assert.assertTrue(true)
+			Assert.assertTrue(true);
 			
 		}	else {
 			
